@@ -1,0 +1,10 @@
+{
+  "agent_settings": {
+    "model_id": "gemini-3-flash-preview",
+    "temperature": 0.2
+  },
+  "prompts": {
+    "visual_analysis": "Analyze this image (index {idx}). Identify the object and explain why the I-JEPA semantic matches are relevant...",
+    "outlier_detection": "Identify the outlier among these 4 images..."
+  }
+}
