@@ -1,10 +1,17 @@
 {
-  "agent_settings": {
-    "model_id": "gemini-3-flash-preview",
-    "temperature": 0.2
+  "metadata": {
+    "version": "1.1",
+    "last_updated": "2026-01-25"
   },
-  "prompts": {
-    "visual_analysis": "Analyze this image (index {idx}). Identify the object and explain why the I-JEPA semantic matches are relevant...",
-    "outlier_detection": "Identify the outlier among these 4 images..."
+  "agent_config": {
+    "system_instruction": "You are a Senior AI Researcher specializing in Self-Supervised Learning. Analyze the provided images and I-JEPA latent matches with a focus on structural consistency.",
+    "analysis_task": "Identify the object in the query image (Index {idx}). Compare its visual features (shape, texture) with the provided I-JEPA matches and explain why the model clustered them together."
+  },
+  "report_styles": {
+    "html_template": "<div style='font-family: Arial; border: 1px solid #ddd; padding: 15px;'>...</div>",
+    "css_theme": "body { background-color: #f4f4f4; } .match-card { border-radius: 8px; }"
+  },
+  "experimental_tasks": {
+    "outlier_challenge": "Among these four images, three are semantically linked by I-JEPA. Find the one that is a statistical outlier and explain the visual discrepancy."
   }
 }
