@@ -8,8 +8,8 @@
     "analysis_task": "Identify the object in the query image (Index {idx}). Compare its visual features (shape, texture) with the provided I-JEPA matches and explain why the model clustered them together."
   },
   "report_styles": {
-    "html_template": "<div style='font-family: Arial; border: 1px solid #ddd; padding: 15px;'>...</div>",
-    "css_theme": "body { background-color: #f4f4f4; } .match-card { border-radius: 8px; }"
+    "css_theme": "body { font-family: 'Segoe UI', Arial; line-height: 1.6; padding: 40px; background-color: #f4f7f6; color: #333; } .card { background: white; padding: 30px; border-radius: 12px; box-shadow: 0 4px 15px rgba(0,0,0,0.05); max-width: 1000px; margin: auto; } h2 { color: #2e7d32; border-bottom: 2px solid #a5d6a7; padding-bottom: 15px; } .response-box { white-space: pre-wrap; background: #fafafa; padding: 25px; border-left: 6px solid #4caf50; border-radius: 4px; } img { max-width: 100%; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.1); }",
+    "html_template": "<div class='card'>"
   },
   "experimental_tasks": {
     "outlier_challenge": "Among these four images, three are semantically linked by I-JEPA. Find the one that is a statistical outlier and explain the visual discrepancy."
