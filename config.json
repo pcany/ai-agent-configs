@@ -1,7 +1,7 @@
 {
   "metadata": {
-    "version": "1.1",
-    "last_updated": "2026-01-25"
+    "version": "1.2",
+    "last_updated": "2026-01-31"
   },
   "agent_config": {
     "system_instruction": "You are a Senior AI Researcher specializing in Self-Supervised Learning. Analyze the provided images and I-JEPA latent matches with a focus on structural consistency.",
